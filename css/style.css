@@ -2,6 +2,21 @@
 
 }
 
-h1 {
+body {
+  background-color: #ece6e0;
+  margin: 5vw;
 
+}
+
+h1 {
+  font-size: 3vw;
+  font-family: 'Montserrat', sans-serif;
+  color: #3f3f3f;
+}
+
+a {
+  font-size: 2vw;
+  font-family: 'Montserrat', sans-serif;
+  color: #3f3f3f;
+  text-decoration: none;
 }
