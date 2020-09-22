@@ -2,6 +2,105 @@
 
 }
 
-h1 {
+body {
+  background-color: #ece6e0;
+  margin: 5vw;
 
 }
+
+button {
+  background-color: #ece6e0;
+  border: 0.1vw solid #3f3f3f;
+  padding: 0.5vw;
+  color: #3f3f3f;
+  font-size: 1vw;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+  background-color: #ece6e0;
+  border: 0.1vw solid #3f3f3f;
+  padding: 1vw;
+  color: #3f3f3f;
+  font-size: 1vw;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.button:hover{
+    border: 0.1vw solid #3f3f3f;
+    background: #3f3f3f;
+    color: #ece6e0;
+}
+
+.notbutton {
+  background-color: #ece6e0;
+  border: 0.1vw solid #3f3f3f;
+  padding: 1vw;
+  color: #3f3f3f;
+  font-size: 1vw;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  background-image: url("https://nghi-tran.github.io/gra-321/code-exercises/img/ac_pic.JPG");
+  font-size: 2vw;
+  font-family: 'Montserrat', sans-serif;
+  color: #3f3f3f;
+  height: 700px;
+
+
+
+}
+
+.change {
+  font-size: 2vw;
+  font-family: 'Montserrat', sans-serif;
+  color: #3f3f3f;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 3vw;
+  font-family: 'Montserrat', sans-serif;
+  color: #3f3f3f;
+}
+
+h2 {
+  font-size: 1vw;
+  font-family: 'Montserrat', sans-serif;
+  color: #3f3f3f;
+}
+
+a {
+  font-size: 1vw;
+  font-family: 'Montserrat', sans-serif;
+  color: #3f3f3f;
+  text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  body {
+
+  }
+
+  .change {
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+    color: cornflowerblue;
+    font-weight: 600;
+  }
+
+  @media only screen and (max-width: 500px) {
+    body {
+
+    }
+
+    .change {
+      font-size: 2vw;
+      font-family: 'Montserrat', sans-serif;
+      color: skyblue;
+      font-weight: 600;
+    }
