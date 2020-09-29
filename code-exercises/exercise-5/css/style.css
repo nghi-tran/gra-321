@@ -46,7 +46,7 @@ button {
   background-color: white;
   align-items: center;
   margin: auto;
-  width: 90%;
+  width: 70%;
   position: relative;
   height: 932px;
 
@@ -64,12 +64,17 @@ button {
 .subtitle {
   font-family: 'Georgia', serif;
   font-size: 13px;
-  font-weight: regularm;
+  font-weight: regular;
   position: absolute;
-  top: 14.37%;
+  top: 15%;
   left: 4.1%;
 }
 
+.img {
+  position: absolute;
+  top: 3.9%;
+  right: 1.6%;
+}
 
 
 
