@@ -70,12 +70,54 @@ button {
   left: 4.1%;
 }
 
+.paragraph {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 9px;
+  font-weight: regular;
+  position: absolute;
+  bottom: 4.3%;
+  left: 4.1%;
+  line-height: 12px;
+
+}
+
+.link {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 9px;
+  font-weight: regular;
+  position: absolute;
+  bottom: 2.3%;
+  right: 7%;
+
+}
+
+.page-number {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 9px;
+  font-weight: regular;
+  position: absolute;
+  bottom: 2.3%;
+  right: 4.2%;
+
+}
+
+
 .img {
+  position: absolute;
+  right: 1.6%;
+}
+
+.img1 {
   position: absolute;
   top: 3.9%;
   right: 1.6%;
 }
 
+.img2 {
+  position: absolute;
+  top: 59.5%;
+  right: 1.6%;
+}
 
 
 
