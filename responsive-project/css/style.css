@@ -2,21 +2,15 @@
 
 }
 body {
-  background-color: #ede5dd;
   font-family: 'Montserrat', sans-serif;
-  color: #AD7963
+  margin: 30px;
+  color: #AD7963;
+  background-color:#ede5dd; 
 }
-
-
-html {
-  scroll-behavior: smooth;
-}
-
-
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
-  color: #AD7963;
+font-family: 'Montserrat', sans-serif;
+color: #AD7963;
 }
 
 .img {
@@ -24,83 +18,228 @@ h1 {
 }
 
 .img1 {
-  position: absolute;
-  right: 30px;
-  top: 30px;
+position: absolute;
+right: 30px;
+top: 30px;
 }
 
 .img2 {
-  position: absolute;
-  right: 30px;
-  top: 45px;
+position: absolute;
+right: 30px;
+top: 45px;
 }
 
 
 .dropbtn {
-  background-color: #ede5dd;
-  border: none;
-  cursor: pointer;
+background-color: #ede5dd;
+border: none;
+cursor: pointer;
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color: none;
-  border: none;
+background-color: none;
+border: none;
 }
 
 .dropdown {
-  position: absolute;
-  display: inline-block;
-  left: 30px;
-  top: 45px;
+position: absolute;
+display: inline-block;
+left: 30px;
+top: 45px;
 
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: none;
-  min-width: 100px;
-  overflow: auto;
-  z-index: 1;
+display: none;
+position: absolute;
+background-color: none;
+min-width: 100px;
+overflow: auto;
+z-index: 1;
 }
 
 .dropdown-content a {
-  color: #AD7963;
-  font-size: 12px;
-  padding: 10px 9px;
-  text-decoration: none;
-  display: block;
+color: #AD7963;
+padding: 10px 9px;
+text-decoration: none;
+display: block;
 }
 
 .dropdown a:hover {
-  font-weight: 600;
+font-weight: 600;
 }
 
 .show {display: block;}
 
 
 .container {
-  display: grid;
-    grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(6, 8vw);
-    grid-gap: 1vw;
-    margin:2% auto;
-
- }
-
-
-.item {}
-.item1 {
-
-    grid-column-start: 2;
-    grid-column-end:5;
-    grid-row-start: 2;
-    grid-row-end: 6;
-    background-color: red;
-
+width: 100%;
+display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 8vw);
+  grid-gap: 1vw;
+  background-color: white;
 
 }
 
+
+.item {}
+
+
+button {
+border: none;
+font-size: 20px;
+}
+
+.menu{
+
+}
+
+
+.accordion {
+font-family: 'Montserrat', sans-serif;
+background-color: #AD7963;
+color: #ede5dd;
+cursor: pointer;
+width: 130px;
+padding: 5px;
+border: none;
+text-align: center;
+outline: none;
+font-size: 18px;
+transition: 0.4s;
+}
+
+
+/*
+.active, .accordion:hover {
+font-weight: 600;
+}
+*/
+
+
+.panel {
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+
+}
+
+.menu-container1 {
+width: 100%;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(7, 70px);
+grid-row-gap: 80px;
+margin-top: -100px;
+margin-bottom: 60px;
+
+}
+
+.object {
+font-size: 12px;
+}
+
+.object1 {
+  grid-column-start: 1;
+  grid-column-end:1;
+  grid-row-start: 2;
+  grid-row-end:2;
+}
+
+
+.object2 {
+  grid-column-start: 2;
+  grid-column-end:2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.object3 {
+  grid-column-start: 1;
+  grid-column-end:1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.object4 {
+  grid-column-start: 2;
+  grid-column-end:2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.object5 {
+  grid-column-start: 1;
+  grid-column-end:1;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+.object6 {
+  grid-column-start: 2;
+  grid-column-end:2;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+.object7 {
+  grid-column-start: 1;
+  grid-column-end:1;
+  grid-row-start: 5;
+  grid-row-end: 5;
+}
+
+.object8 {
+  grid-column-start: 2;
+  grid-column-end:2;
+  grid-row-start: 5;
+  grid-row-end: 5;
+}
+
+.object9 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
+
+.object10 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
+
+.object11 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 7;
+  grid-row-end: 7;
+}
+
+.menu-container2 {
+width: 100%;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(6, 70px);
+grid-row-gap: 80px;
+margin-top: -100px;
+margin-bottom: 60px;
+
+}
+
+.special {
+font-size: 12px;
+}
+
+.food {
+font-size: 12px;
+}
+
+.visit-us {
+font-size: 12px;
+}
 
 
 
