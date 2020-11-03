@@ -22,33 +22,34 @@ h1 {
 
 .img1 {
   position: absolute;
-  left: 10px;
-  top: 10px;
+  left: 30px;
+  top: 30px;
 }
 
 .img2 {
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 30px;
+  top: 45px;
 }
 
 
 .dropbtn {
-  background-color: #3498DB;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
+  background-color: #ede5dd;
   border: none;
   cursor: pointer;
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
+  background-color: none;
+  border: none;
 }
 
 .dropdown {
-  position: relative;
+  position: absolute;
   display: inline-block;
+  right: 30px;
+  top: 45px;
+
 }
 
 .dropdown-content {
