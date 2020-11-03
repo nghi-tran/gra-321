@@ -1,14 +1,64 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>#</title>
+    <title>Charlie's Cafe</title>
     <meta charset="UTF-8">
-    <meta name="description" content="#">
-    <meta name="keywords" content="#">
-    <meta name="author" content="#">
+    <meta name="description" content="Charlie's Cafe">
+    <meta name="keywords" content="coffee">
+    <meta name="author" content="Nghi Tran">
+    <link href="./css/normalized.css" type="text/css" rel="stylesheet">
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> <!-- semi bold montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet"> <!-- light montserrat -->
+  </head>
   </head>
 
   <body>
-  <h1>Placeholder Text</h1>
-  </body>
+    <img src="https://nghi-tran.github.io/gra-321/responsive-project/img/charlie-logo.svg" alt="charlie's logo" width="109.8" height="69.07">
+
+
+
+
+    <img src="https://nghi-tran.github.io/gra-321/responsive-project/img/menu.svg" alt="charlie's logo" width="109.8" height="69.07">
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+
+
+
+
+    <script>
+
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+
+
+  	</body>
+
+
+
+
+
 </html>
