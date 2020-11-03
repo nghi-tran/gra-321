@@ -21,8 +21,7 @@
 
     <div class="dropdown">
       <button onclick="myFunction()" class="dropbtn">
-        <img src="https://nghi-tran.github.io/gra-321/responsive-project/img/menu.svg" alt="charlie's logo" width="30" height="30
-        ">
+        <img src="https://nghi-tran.github.io/gra-321/responsive-project/img/menu.svg" alt="charlie's logo" width="30" height="30">
 
       </button>
       <div id="myDropdown" class="dropdown-content">
@@ -34,7 +33,106 @@
       </div>
     </div>
 
-hello world
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <center><div class="menu">
+
+          <button class="accordion">hot</button>
+          <div class="panel">
+            <div class="menu-container"> 
+              <div class="object object1"> 
+                drip coffee <br>
+                2.15 / 2.50 / 2.75
+              </div> 
+              <div class="object object2"> 
+                expresso <br>
+                2.25 / 2.75 / 3.25 
+              </div> 
+              <div class="object object3">
+                macchiato <br>
+                2.35 / 2.85 / 3.35
+              </div>
+              <div class="object object4"> 
+                americano <br>
+                2.25 / 2.75 / 3.25
+              </div>
+              <div class="object object5"> 
+                cappucino <br>
+                2.95 / 3.50 / 4.25
+              </div>
+              <div class="object object6"> 
+                caffe latte <br>
+                3.55 / 3.95 / 4.75
+              </div>
+              <div class="object object7"> 
+                caffe mocha <br>
+                3.75 / 4.25 / 5.00
+              </div>
+              <div class="object object8"> 
+                americano <br>
+                3.75 / 4.45 / 5.05
+              </div>
+              <div class="object object9"> 
+                hot chocolate <br>
+                3.25 / 3.75 / 4.25
+              </div>
+              <div class="object object10"> 
+                chai <br>
+                3.25 / 3.95 / 4.25
+              </div>
+              <div class="object object11"> 
+                organic tea <br>
+                2.50
+              </div>
+            </div>
+          </div>
+
+          <br><br>
+
+          <button class="accordion">cold</button>
+          <div class="panel">
+            <div class="menu-container"> 
+              <div class="object object1"> drip coffee </div> 
+              <div class="object object2"> drip coffee </div> 
+            </div>
+          </div>
+
+          <br><br>
+
+          <button class="accordion">special</button>
+          <div class="panel">
+            <div class="menu-container"> 
+              <div class="object object1"> drip coffee </div> 
+              <div class="object object2"> drip coffee </div> 
+            </div>
+          </div>
+
+          <br><br>
+
+          <button class="accordion">food</button>
+          <div class="panel">
+            <div class="menu-container"> 
+              <div class="object object1"> drip coffee </div> 
+              <div class="object object2"> drip coffee </div> 
+            </div>
+          </div>
+
+          <br><br>
+
+          <button class="accordion">visit us</button>
+          <div class="panel">
+            <div class="menu-container"> 
+              <div class="object object1"> drip coffee </div> 
+              <div class="object object2"> drip coffee </div> 
+            </div>
+          </div>
+
+          </center>
+
+
+
+      </div> 
+
 
 
 
@@ -58,6 +156,22 @@ hello world
         }
       }
     }
+
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+
     </script>
 
 
