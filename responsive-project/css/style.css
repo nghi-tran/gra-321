@@ -16,6 +16,22 @@ h1 {
   color: #AD7963;
 }
 
+.img {
+
+}
+
+.img1 {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.img2 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
 
 .dropbtn {
   background-color: #3498DB;
