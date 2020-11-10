@@ -32,6 +32,9 @@ body {
   background-color: #ede5dd;
   border: none;
   cursor: pointer;
+  width: 50px;
+  height: 50px;
+
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -50,10 +53,11 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: none;
+
   min-width: 100px;
   overflow: auto;
   z-index: 1;
+
 }
 
 .dropdown-content a {
@@ -61,10 +65,16 @@ body {
   padding: 10px 9px;
   text-decoration: none;
   display: block;
+  border-radius: 25px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 }
 
 .dropdown a:hover {
   font-weight: 600;
+  background-color: white;
 }
 
 .show {display: block;}
