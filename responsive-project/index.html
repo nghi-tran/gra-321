@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Charlie's Cafe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta name="description" content="Charlie's Cafe">
     <meta name="keywords" content="coffee">
@@ -10,40 +11,54 @@
     <link href="./css/style.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> <!-- semi bold montserrat -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet"> <!-- light montserrat -->
+    <script>
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      console.log("Working");
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
   </head>
-  </head>
+
 
   <body>
-    <div id="main"><div class="img img1">
-    <img src="https://nghi-tran.github.io/gra-321/responsive-project/img/charlie-logo.svg" alt="charlie's logo" width="109.8" height="69.07">
-  </div></div>
-
-
-    <div class="dropdown">
-      <button onclick="myFunction()" class="dropbtn">
-        <img src="https://nghi-tran.github.io/gra-321/responsive-project/img/menu.svg" alt="hamburger menu" width="30" height="30">
-
-      </button>
-      <div id="myDropdown" class="dropdown-content">
-        <a href="#hot">hot</a>
-        <a href="#cold">cold</a>
-        <a href="#special">special</a>
-        <a href="#food">food</a>
-        <a href="#visit">visit us</a>
+    <div class="header">
+      <div class="img img1">
+        <img src="https://nghi-tran.github.io/gra-321/responsive-project/img/charlie-logo.svg" alt="charlie's logo" width="109.8" height="69.07">
+    </div>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">
+          <img src="https://nghi-tran.github.io/gra-321/responsive-project/img/menu.svg" alt="hamburger menu" width="30" height="30">
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#hot">hot</a>
+          <a href="#cold">cold</a>
+          <a href="#special">special</a>
+          <a href="#food">food</a>
+          <a href="#visit">visit us</a>
+        </div>
       </div>
     </div>
 
-        <br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br>
 
-        <center><p>
-        Charlie's Cafe brings brings the taste of Europe to ASU. <br>
-        Come experience the difference.
-        </p></center>
-        
-        <br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+
+
+        <div class="intro" id="main">
+          <p>Charlie's Cafe brings brings the taste of Europe to ASU. <br>
+            Come experience the difference.</p>
+        </div>
 
         <a href="#hot"><center><img src="https://nghi-tran.github.io/gra-321/responsive-project/img/arrow-down.svg" alt="charlie's logo" width="30" height="30"></a></center>
 
@@ -51,7 +66,7 @@
 
         <div id="menu">
         <div id="hot">
-        <center><button class="accordion">hot</button></center>
+        <center><button class="accordion" >hot</button></center>
         <br><br>
         <div class="columns">
           <div class="column-block one">
@@ -189,15 +204,13 @@
         </div>
 
         </div>
-      </div></div>
-
+      </div>
+    </div>
 
       </div>
-
-
-
           <div id="special">
           <center><button class="accordion">special</button></center>
+          <br>
           <div class="columns">
           <div class="column-block-special one">
             <br>
@@ -223,7 +236,7 @@
             </div>
           </div></div>
 
-          <br><br>
+          <br>
 
 
           <div id="food">
@@ -231,7 +244,7 @@
           <br>
           <div class="columns">
           <div class="column-block-food one">
-  
+
             <b>panini</b><br>
             6.00
             <br><br>
@@ -284,15 +297,14 @@
             <div>
 
 
-
-
             </div>
           </div></div>
 
-  
+
 
           <div id="visit">
           <center><button class="accordion">visit us</button></center>
+          <br>
           <div class="columns">
           <div class="column-block-food one">
 
@@ -361,46 +373,14 @@
 
 
       </div>
+  <br><br><br><br>
 
 
-      <br><br><br><br><br><br><br><br><br><br>
-
-      <a href="#main"><center><img src="https://nghi-tran.github.io/gra-321/responsive-project/img/arrow-up.svg" alt="charlie's logo" width="30" height="30"></a></center>
-
-
-
-      <br><br><br><br><br><br><br>
+      <div class="back-to-top">
+        <a href="#main"><center><img src="https://nghi-tran.github.io/gra-321/responsive-project/img/arrow-up.svg" alt="charlie's logo" width="30" height="30"></a></center>
+      </div>
 
 
-
-
-
-
-    <script>
-
-    function myFunction() {
-      document.getElementById("myDropdown").classList.toggle("show");
-    }
-
-
-    window.onclick = function(event) {
-      if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-          var openDropdown = dropdowns[i];
-          if (openDropdown.classList.contains('show')) {
-            openDropdown.classList.remove('show');
-          }
-        }
-      }
-    }
-
-
-
-
-
-    </script>
 
 
     </body>
