@@ -8,7 +8,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #AD7963;
   background-color:#ede5dd;
-  padding: 3%;
+  padding: 2%;
 }
 
 .img {
@@ -103,17 +103,6 @@ div.intro {
 .show {display: block;}
 
 
-.container {
-  width: 100%;
-  display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 8vw);
-    grid-gap: 1vw;
-    background-color: white;
-}
-
-.item {}
-
 
 button {
   border: none;
@@ -137,9 +126,22 @@ button {
   outline: none;
   font-size: 18px;
   transition: 0.4s;
+  font-weight: bold;
 }
 
 
+
+ul#menu-list li {
+  display:inline;
+  list-style:none;
+  padding-right:5px;
+
+}
+
+
+ul {
+  padding-left:0;
+}
 /*
 .active, .accordion:hover {
   font-weight: 600;
