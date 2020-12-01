@@ -16,11 +16,12 @@ body {
 .img {
 
 }
+
+
 /* new */
 div.intro {
   display: flex;
   justify-content: center;
-
   margin-top: 50px;
   margin-bottom: -300px;
   height: 350px;
@@ -43,16 +44,18 @@ margin-left: 10px;
 }
 
 
-
 .header {
   display:flex;
   position:fixed;
 width:100%;
-
 background:#F8F6F4;
 z-index: 1;
 left:5px;
 top:0px;
+}
+
+.block {
+  height:80px;
 }
 
 
@@ -95,11 +98,9 @@ button {
 
 
 ul#menu-list li {
-  display:inline;
   list-style:none;
   padding-right:5px;
-  font-size: 16px;
-
+  font-size: 20px;
 }
 
 
@@ -172,7 +173,7 @@ ul {
   justify-content: space-between;
   position: relative;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
 
 }
 
@@ -184,7 +185,7 @@ ul {
   justify-content: space-between;
   position: relative;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 30px;
 }
 
@@ -224,7 +225,7 @@ ul {
 
 #hot {
   padding-top: 50%;
-  margin-top: -300px;
+  margin-top: -500px;
 
 }
 
@@ -324,7 +325,7 @@ i.fa-angle-down {
 }
 .arrow {
   position: absolute;
-  bottom: 20%;
+  bottom: 10%;
   left: 50%;
   margin-left: -20px;
   margin-top: -100px;
@@ -345,7 +346,7 @@ i.fa-angle-down {
 i.fa-angle-up {
   align-content: center;
   color: #A05D30;
-    left: 30%;
+  left: 50%;
 }
 
 
@@ -384,9 +385,6 @@ i.fa-angle-up {
       font-size:20px;
 
     }
-    .coffee-cup {
-      margin-bottom: 95px;
-    }
 
 
 
@@ -395,7 +393,7 @@ i.fa-angle-up {
   }
 
   .column-block {
-    width: 10%;
+    width: 15%;
   }
 
   .column-block-food {
@@ -409,29 +407,28 @@ i.fa-angle-up {
   }
 
   #hot {
-    padding-top: 20%;
-    margin-bottom: -200px;
+    padding-top: 120px;
 
   }
 
   #cold {
-    padding-top: 20%;
-    margin-bottom: -150px;
+    padding-top: 50px;
+
   }
 
   #special {
-    padding-top: 20%;
-    margin-bottom: -100px;
+    padding-top: 50px;
+
   }
 
   #food {
-    padding-top: 20%;
-    margin-bottom: -200px;
+    padding-top: 100px;
+
   }
 
   #visit {
-    padding-top: 20%;
-  margin-bottom: -200px;
+    padding-top: 50px;
+
   }
 
   p {
@@ -450,12 +447,20 @@ i.fa-angle-up {
   } /*do not delete*/
 
   .back-to-top {
-    margin-left: 45%;
+    margin-left: 50%;
     bottom:40px;
     width: 40px;
     height: 60px;
     color: #A05D30;
     opacity: 0.5;
+  }
+
+  ul#menu-list li {
+    display:inline;
+    list-style:none;
+    padding-right:5px;
+    font-size: 20px;
+
   }
 
 
@@ -539,6 +544,10 @@ i.fa-angle-up {
       max-width: 400px;
 
 
+    }
+
+    .column-block {
+      width: 30%;
     }
 
 
