@@ -58,6 +58,12 @@ top:0px;
   height:80px;
 }
 
+.block1 {
+  height:80px;
+  position: absolute;
+  top: 0;
+}
+
 
 
 .img1 {
@@ -450,7 +456,7 @@ i.fa-angle-up {
   } /*do not delete*/
 
   .back-to-top {
-    margin-left: 50%;
+    margin-left: 47%;
     bottom:40px;
     width: 40px;
     height: 60px;
